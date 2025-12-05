@@ -1,0 +1,31 @@
+# Bỏ qua các thư mục chứa dữ liệu ảnh/csv
+data/
+dataset/
+images/
+inputs/
+
+# Bỏ qua các file nén nặng
+*.zip
+*.tar
+*.tar.gz
+*.rar
+
+# Bỏ qua các file model đã train 
+*.h5
+*.pth
+*.pt
+*.onnx
+
+# --- Cấu hình môi trường Python ---
+# Bỏ qua thư mục môi trường ảo
+venv/
+env/
+.env
+
+# Bỏ qua file cache của Python (tự sinh ra khi chạy code)
+__pycache__/
+*.pyc
+
+# --- Jupyter Notebook / Colab ---
+# Bỏ qua thư mục checkpoint 
+.ipynb_checkpoints/
