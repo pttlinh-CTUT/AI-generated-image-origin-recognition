@@ -12,7 +12,7 @@ This project implements a Deep Learning model to classify images as **Real** or 
 ```text
 my-project/
 ├── data/                  # Data directory (Ignored by .gitignore)
-├── download_data.py       # Script to automatically download the dataset
+├── download_dataset.py       # Script to automatically download the dataset
 ├── main.ipynb             # Main Jupyter Notebook for training & evaluation
 ├── .gitignore             # Git configuration to ignore large files
 ├── LICENSE                # MIT License file
